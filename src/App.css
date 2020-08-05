@@ -1,38 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Comic+Neue|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#channel{
+  font-family: 'Comic Neue', cursive;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#tuneIn{
+  font-family: 'Roboto', sans-serif;
+  font-style:italic ;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  background-color: white;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 100%;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+h3{
+  font-size:large;
+  text-align: left;
+  }
+
+  #women_sci{
+    font-family: sans-serif;
+  }
+  /* h5{
+  padding-top: 5px;
+} */
+.image3, .image6{
+  padding-left: 30px;
+  padding-bottom: 0px;
+  /* padding-top: 10px; */
 }
 
-.App-link {
-  color: #61dafb;
+.image9{
+  padding-left: 30px;
+}
+.image2, .image5, .image8{
+  /* padding-right: 20px; */
+  padding-left: 30px;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image10{
+  padding-left: 280px;
 }
+
+.image1, .image4, .image7{
+  padding-left: 290px;
+}
+
+h5{
+  text-align: left;
+}
+
+/* Reference: https://www.sketchingwithcss.com/samplechapter/cheatsheet.html */
